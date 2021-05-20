@@ -34,11 +34,11 @@ color: #D41443;
     
   
     @media screen and (min-width: $tablet) {
-      margin-bottom: 39px;
+      // margin-bottom: 39px;
     }
   
     @media screen and (min-width: $desktop) {
-      margin-bottom: 49px;
+      // margin-bottom: 49px;
     }
   }
   
@@ -72,13 +72,13 @@ color: #D41443;
 
     @media screen and (max-width: 767px) {
       margin-bottom: 130px;
-      padding: 157px 11px 40px 11px;
+      padding: 157px 11px 41px 11px;
     
     }
   
     @media screen and (min-width: $tablet ){
     margin-right: 20px;
-    padding: 157px 14px 40px 14px;
+    padding: 150px 14px 40px 14px;
     }
   
     @media screen and (min-width: $desktop) {
@@ -107,11 +107,13 @@ color: #D41443;
     @media screen and (min-width: $tablet ){
       width: 220px;
       height: 226px;  
+      top: -118px;
     }
 
     @media screen and (min-width: $desktop){
       width: 335px;
       height: 335px;
+      top: -190px;
     }
 
    
