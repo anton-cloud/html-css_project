@@ -1,0 +1,21 @@
+footer {
+  background-color: #fff5f6;
+}
+
+.footer__discription-top {
+  font-family: var(--fonts-titan_one);
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+
+  color: var(--primary-title-color);
+}
+
+.footer__discription-bottom {
+  font-family: var(--fonts-titan_one);
+  font-size: 58px;
+  line-height: 1.15;
+  text-transform: uppercase;
+
+  color: var(--secondary-title-color);
+}
