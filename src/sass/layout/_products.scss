@@ -43,7 +43,7 @@ color: #D41443;
   }
   
   .products-list {
-    margin: -12px;
+   
     margin-top: 144px;
 
     @media screen and (min-width: $tablet){
@@ -53,25 +53,25 @@ color: #D41443;
   
   .products-list__item {
     position: relative;
-    
+    max-width:280px;
+    height:100%;
     padding: 157px 11px 40px 11px;
     border-radius: 24px;
 
-    @media screen and (min-width: $mobile) {
+    @media screen and (max-width: 767px) {
       margin-bottom: 130px;
-      width: 280px;
-      height: 485px;
+    
 
     }
   
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet ){
     
       // flex-basis: calc((100% - 72px) / 3);
       width: 220px;
        height: 485px;  
     }
   
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       // flex-basis: calc((100% - 72px) / 3);
     }
   }
@@ -107,7 +107,8 @@ color: #FFFFFF;
       left: 6%;
   
       display: block;
-      
+      padding-left: 15px;
+      padding-right: 15px;
       width: 249px;
       height: 252px;
       background-repeat: no-repeat;
