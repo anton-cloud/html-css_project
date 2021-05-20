@@ -57,6 +57,8 @@ color: #D41443;
   
   .products-list__item--pink {
     background-color: #ffb8ca;
+
+
   }
   
   .products-list__item--orange {
@@ -87,13 +89,20 @@ color: #FFFFFF;
       width: 100%;
       width: 337px;
       height: 335px;
- 
-      background-image: url(../images/ice-cream.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
     }
   }
+  .products-list_title-coffe::before{
+    background-image: url(../images/ice-coffe.png);
+  }
+.products-list_title-cream::before{
+    background-image: url(../images/ice-cream.png);
+}
+.products-list_title-milkshake::before{
+    background-image: url(../images/milkshake1.png);
+}
   
   .products-list_subtitle {
     display: block;
