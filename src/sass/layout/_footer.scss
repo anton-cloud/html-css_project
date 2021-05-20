@@ -2,6 +2,11 @@ footer {
   background-color: #fff5f6;
 }
 
+.footer__discription-wrap {
+  width: 234px;
+  margin-bottom: 44px;
+}
+
 .footer__discription-top {
   font-family: var(--fonts-titan_one);
   font-size: 18px;
@@ -12,10 +17,50 @@ footer {
 }
 
 .footer__discription-bottom {
+  margin-top: 16px;
+
   font-family: var(--fonts-titan_one);
   font-size: 58px;
   line-height: 1.15;
   text-transform: uppercase;
 
   color: var(--secondary-title-color);
+}
+
+.footer__link-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  margin-bottom: 44px;
+}
+
+.social {
+  display: flex;
+}
+
+.social__item {
+  &:not(:first-child) {
+    padding-left: 28px;
+  }
+}
+
+.social__icon {
+  fill: var(--primary-title-color);
+}
+
+.mobile-number {
+  margin-top: 46px;
+  color: var(--text-dark-color);
+  font-weight: 600;
+}
+
+.mobile-number-color {
+  color: var(--secondary-title-color);
+}
+
+.bottom-text {
+  text-align: center;
+  border-top: 1px solid #e1e1e1;
+  padding: 10px 0;
 }
