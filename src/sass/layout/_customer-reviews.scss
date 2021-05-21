@@ -1,0 +1,68 @@
+.customer-reviews__section {
+    padding-top: 80px;
+    padding-bottom: 86px;
+    }
+    .container-wrap__img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;;
+      }
+    .container-wrap{
+        width: 926px;
+        margin-bottom:132px;
+    }
+    .container-wrap__thumb-reviews{
+        position: relative;
+        background-color: #FAFAFA;
+        
+        align-items: center;
+
+        @media screen and (min-width: $desktop){
+            width: 926px;
+            padding: 32px 54px 32px 50px;
+          }
+    }
+    .container-wrap__text-reviews {
+        position:relative;
+        font-size: 16px;
+		line-height: 1.86;
+		padding: 0 32px;
+        background-image: repeating-linear-gradient(to top, #E1E1E1 0px 1px, transparent 1px 30px);
+        text-align: center;
+        color:#000;
+
+    &::before{
+        position: absolute;
+        content: '';
+        top: -12px;
+        left: -2%;
+        transform: translateX(-2%);
+        width: 54px;
+        height: 40px;
+        background-image: url(../images/reviews/detail.png);
+        
+        }
+
+    }
+    
+    .container-wrap__text {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.86;
+      text-align: center;
+      color: #000;
+
+      &::before {
+        margin: 15px auto;
+        content: '';
+        top: 0;
+        left: 0;
+        display: block;
+        width: 32px;
+        height: 4px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../images/reviews/circle-review.png);
+      }
+    }
+    
