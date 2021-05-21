@@ -5,14 +5,20 @@
     .container-wrap__img {
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 15px;;
       }
-    
+    .container-wrap{
+        width: 926px;
+        margin-bottom:132px;
+    }
     .container-wrap__text-reviews {
-      font-weight: 500;
-      line-height: 1.86;
-      text-align: center;
-    
-      color: #000;
+	background-image: repeating-linear-gradient(to top, #E1E1E1 0px 1px, transparent 1px 30px);
+	text-align: center;
+    color:#000;
+    font-size: 16px;
+    line-height: 1.86;
+   
+
     }
     
     .container-wrap__text {
@@ -22,4 +28,10 @@
       text-align: center;
     
       color: #000;
+    }
+    .container-wrap__thumb-reviews{
+        background-color: #FAFAFA;
+        padding: 47px 89px 39px 87px;
+        width: 926px;
+        align-items: center;
     }
