@@ -75,6 +75,13 @@
   }
 }
 
+.products-list__item:hover,
+.products-list__item:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+
+}
+
 .products__card-cream::before,
 .products__card-coffe::before,
 .products__card-milkshakes::before {
@@ -124,6 +131,7 @@
     // margin-right: 24px;
   }
 }
+
 
 .products-list__item--orange {
   background-color: #f0d1a5;
