@@ -22,7 +22,7 @@
   (min-resolution: 192dpi) and (min-width: 1200px),
   (min-resolution: 2dppx) and (min-width: 1200px) {
   .contacts {
-    background-image: linear-gradient(to bottom, #ffffff 25%, #fff5f6 75%),
+    background-image: linear-gradient(to bottom, #ffffff 25% 25%, #fff5f6 75% 75%),
       url('../images/contacts-desktop@2x.png');
   }
 }
