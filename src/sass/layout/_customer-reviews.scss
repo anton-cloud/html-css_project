@@ -53,7 +53,7 @@
 
   @media screen and (min-width: $desktop) {
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.86;
     background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
   }
 
@@ -87,8 +87,11 @@
   text-align: center;
   color: #000;
 
+  margin-bottom: 30px;
+
   @media screen and (min-width: $tablet) {
     font-size: 16px;
+    margin-bottom: 35px;
   }
 
   @media screen and (min-width: $desktop) {
@@ -107,4 +110,21 @@
     background-position: center;
     background-image: url(../images/reviews/circle-review.png);
   }
+}
+
+// slider
+
+.slick-dots {
+  position: relative;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  content: '';
+  background-image: url(../images/customer_reviews-home.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
