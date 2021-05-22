@@ -202,6 +202,10 @@
   border-radius: 50%;
   border: none;
 }
+.products_button:hover,
+.products_button:focus{
+background-color: #ECEBEB;
+}
 
 .products_button__icon {
   fill: #d41443;
