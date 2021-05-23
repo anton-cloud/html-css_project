@@ -6,15 +6,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 102px;
+  // padding-top: 102px;
   padding-bottom: 42px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 148px;
+    // padding-top: 148px;
     padding-bottom: 70px;
   }
   @media screen and (min-width: 1200px) {
-    padding-top: 154px;
+    // padding-top: 154px;
     padding-bottom: 70px;
   }
 }
