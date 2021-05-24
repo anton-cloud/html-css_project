@@ -248,25 +248,25 @@
  .products-thumb__text {
 
   position: absolute;
-  top: 137px;
-  left: 26px;
-  right: 24px;
-  margin: 0;
-  padding:15px;
-  min-width: 200px;
-  min-height: 168px;
-  font-size: 14px;
-  line-height: 1.56;
-  color: black;
+  top: 274px;
+left: 50%;
+transform: translate(-50%, -50%);
+margin: 0;
+padding: 15px;
+min-width: 100%;
+min-height: 50%;
+font-weight: bold;
+font-size: 16px;
+  color: #fff;
    opacity: 0;
    margin: 0;
    line-height: 1.56;
-  
+
    .products_button:hover &,
    .products_button:focus & {
-    background-color: #ECEBEB;
+    background-color:#ffb8ca; ;
       opacity: 1;
-      transform: translateY(0);
+     
     }
 
   }
