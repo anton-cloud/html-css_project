@@ -383,6 +383,7 @@
     border: none;
     border-radius: 50%;
     background-color: #fff;
+    cursor: pointer;
 
     @media screen and (min-width: 768px) {
       width: 18px;
@@ -396,13 +397,23 @@
       height: 26px;
     }
 
-    .products-link-icon {
+    .hero-text__icon {
       fill: #d41443;
+
+      @media screen and (min-width: 768px) {
+        width: 7px;
+        height: 6px;
+      }
+
+      @media screen and (min-width: 1200px) {
+        width: 10px;
+        height: 9px;
+      }
     }
   }
 }
 
-.hero__button {
+.hero__button-list {
   display: flex;
   .button {
     @media screen and (max-width: 1199px) {
@@ -419,7 +430,7 @@
       height: 40px;
     }
   }
-  button:first-child {
+  .hero__button-item:first-child {
     margin-right: 8px;
   }
 }
