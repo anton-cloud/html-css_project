@@ -17,10 +17,10 @@
       </div>
       <ul class="nav__list list">
         <li class="nav__item"><a class="nav__link link" href="./index.html">Home</a></li>
-        <li class="nav__item"><a class="nav__link link" href="#">About us</a></li>
-        <li class="nav__item"><a class="nav__link link" href="#">How it’s made?</a></li>
+        <li class="nav__item"><a class="nav__link link" href="#gallery">About us</a></li>
+        <li class="nav__item"><a class="nav__link link" href="#about">How it’s made?</a></li>
         <li class="nav__item"><a class="nav__link link" href="#products">Our products</a></li>
-        <li class="nav__item"><a class="nav__link link" href="#">Contact</a></li>
+        <li class="nav__item"><a class="nav__link link" href="#contact">Contact</a></li>
       </ul>
     </nav>
     <button class="header__btn-menu" data-menu-button>
@@ -52,17 +52,21 @@
         </li>
       </ul>
     </div>
-    <div class="hero__button">
-      <button type="button" class="button button-accent">Products</button>
-      <button class="button">How it’s made?</button>
-    </div>
+    <ul class="hero__button-list list">
+      <li class="hero__button-item"><a class="link button button-accent" href="#products">Products</a></li>
+      <li class="hero__button-item"><a class="link button" href="#about">How it’s made?</a></li>
+    </ul>
+    <!-- <div class="hero__button">
+      <button href="#products" type="button" class="button button-accent">Products</button>
+      <button href="#about" class="button">How it’s made?</button>
+    </div> -->
     <div class="hero-text">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et
       </p>
       <button href="" class="hero-text__btn" type="button">
-        <svg class="hero-text__icon" width="26" height="26">
+        <svg class="hero-text__icon">
           <use href="./images/sprite.svg#icon-arrow-right"></use>
         </svg>
       </button>
