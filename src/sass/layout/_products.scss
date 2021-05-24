@@ -196,6 +196,7 @@
 }
 
 .products_button {
+  position: relative;
   width: 40px;
   height: 40px;
   background-color: #ffffff;
@@ -214,9 +215,45 @@
 }
 
 
+.description-products {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  width: 280px;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 400ms linear, visibility 400ms linear;
+  color: #fff;
 
+  @media screen and (min-width: 768px) {
+    width: 220px;
+  }
 
+  @media screen and (min-width: 1280px) {
+    width: 232px;
+  }
 
+  .products_button:hover &,
+  .products_button:focus & {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.description-products_icecreame {
+  background-color: #ffb8ca;
+}
+.description-products_milkshake {
+  background-color: #c2e297;
+}
+
+.description-products_ice-coffe {
+  background-color: #f0d1a5;
+}
 
 
 
