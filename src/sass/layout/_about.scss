@@ -15,7 +15,7 @@
     padding-top: 130px;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 125px;
     background-position: center bottom;
   }
@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .about {
     background-image: url('../images/background-desktop.png');
   }
@@ -81,9 +81,9 @@
   }
 }
 
-@media (min-device-pixel-ratio: 2) and (min-width: 1280px),
-  (min-resolution: 192dpi) and (min-width: 1280px),
-  (min-resolution: 2dppx) and (min-width: 1280px) {
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  (min-resolution: 192dpi) and (min-width: 1200px),
+  (min-resolution: 2dppx) and (min-width: 1200px) {
   .about {
     background-image: url('../images/background-desktop@2x.png');
   }
@@ -101,7 +101,7 @@
     line-height: 1.15;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     font-size: 30px;
     line-height: 1.13;
   }
@@ -118,7 +118,7 @@
     font-size: 48px;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     font-size: 58px;
     line-height: 1.14;
     letter-spacing: 0.06em;
@@ -137,7 +137,7 @@
     line-height: 1.76;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     margin-top: 106px;
     font-size: 16px;
   }
@@ -154,7 +154,7 @@
     line-height: 1.76;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.94;
     letter-spacing: 0.04em;
@@ -164,12 +164,13 @@
   display: block;
   padding-top: 10px;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 20px;
   }
 }
 
 .about-button {
+  display: flex;
   margin-top: 47px;
   width: 176px;
   height: 44px;
@@ -190,7 +191,7 @@
     line-height: 1.31;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     margin-top: 45px;
   }
 
