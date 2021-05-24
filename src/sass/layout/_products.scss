@@ -12,6 +12,19 @@
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #ffa5ba;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+
+  @media screen and (min-width: $desktop) {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+
 }
 .products_title {
   font-family: Titan One;
@@ -22,8 +35,18 @@
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
   color: #d41443;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+
+  @media screen and (min-width: $desktop) {
+    font-size: 58px;
+    line-height: 66px;
+  }
 }
 
 .products {
@@ -234,7 +257,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    width: 232px;
+    width: 300px;
   }
 
   .products_button:hover &,
